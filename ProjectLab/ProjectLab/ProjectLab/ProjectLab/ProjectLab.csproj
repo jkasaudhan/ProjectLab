@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{967DACC2-E9CD-4BDE-833A-952D85800F41}</ProjectGuid>
+    <ProjectTypeGuids>{F85E285D-A4E0-4152-9332-AB1D724D3325};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ProjectLab</RootNamespace>
+    <AssemblyName>ProjectLab</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Design, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.CrystalReports.TemplateEngine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Viewing.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.ClientDoc, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommLayer, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonControls, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.CommonObjectModel, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportAppServer.Controllers, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\AdminShared\AdminSharedController.cs" />
+    <Compile Include="Areas\Admin\Controllers\AccountController.cs" />
+    <Compile Include="Areas\Admin\Controllers\EventsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\FileUploadController.cs" />
+    <Compile Include="Areas\Admin\Controllers\IndexController.cs" />
+    <Compile Include="Areas\Admin\Controllers\LogonController.cs" />
+    <Compile Include="Areas\Admin\Controllers\memberController.cs" />
+    <Compile Include="Areas\Admin\Controllers\MilestonesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProjectController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ReportController.cs" />
+    <Compile Include="Areas\Admin\Controllers\SignupController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ToDoController.cs" />
+    <Compile Include="Areas\Admin\Models\Events\Model.cs" />
+    <Compile Include="Areas\Admin\Models\Logon\Model.cs" />
+    <Compile Include="Areas\Admin\Models\member\Model.cs" />
+    <Compile Include="Areas\Admin\Models\Milestones\Model.cs" />
+    <Compile Include="Areas\Admin\Models\Project\Model.cs" />
+    <Compile Include="Areas\Admin\Models\Report\Model.cs" />
+    <Compile Include="Areas\Admin\Models\Signup\Model.cs" />
+    <Compile Include="Areas\Admin\Models\ToDo\Model.cs" />
+    <Compile Include="Areas\Admin\Views\member\AEForm.ascx.cs">
+      <DependentUpon>AEForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Areas\Admin\Views\member\AEForm.ascx.designer.cs">
+      <DependentUpon>AEForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\Views\Project\AEForm.ascx.cs">
+      <DependentUpon>AEForm.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Areas\Admin\Views\Project\AEForm.ascx.designer.cs">
+      <DependentUpon>AEForm.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\Views\Report\DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\Views\Shared\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Areas\Admin\Views\Shared\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\Views\Shared\Menu.ascx.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Areas\Admin\Views\Shared\Menu.ascx.designer.cs">
+      <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Areas\Admin\Views\Shared\SubMenu.ascx.cs">
+      <DependentUpon>SubMenu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Areas\Admin\Views\Shared\SubMenu.ascx.designer.cs">
+      <DependentUpon>SubMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Helpers\Encryptor.cs" />
+    <Compile Include="Helpers\PasswordGenerator.cs" />
+    <Compile Include="ProjectLabDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectLabDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SQLManager\SQLManager.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helpers\PaginatedList.cs" />
+    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Admin\Content\960.css" />
+    <Content Include="Areas\Admin\Content\blue.css" />
+    <Content Include="Areas\Admin\Content\colorbox.css" />
+    <Content Include="Areas\Admin\Content\commenteffects.css" />
+    <Content Include="Areas\Admin\Content\datepick.css" />
+    <Content Include="Areas\Admin\Content\glDatePicker.default.css" />
+    <Content Include="Areas\Admin\Content\glDatePicker.flatwhite.css" />
+    <Content Include="Areas\Admin\Content\iefix.css" />
+    <Content Include="Areas\Admin\Content\images\arrow-left.png" />
+    <Content Include="Areas\Admin\Content\images\arrow-right.png" />
+    <Content Include="Areas\Admin\Content\images\bg.gif" />
+    <Content Include="Areas\Admin\Content\images\bg_caption.png" />
+    <Content Include="Areas\Admin\Content\images\bg_content.gif" />
+    <Content Include="Areas\Admin\Content\images\bg_content_bottom.gif" />
+    <Content Include="Areas\Admin\Content\images\bg_header_blue.gif" />
+    <Content Include="Areas\Admin\Content\images\bg_login.gif" />
+    <Content Include="Areas\Admin\Content\images\bg_usertools_left.gif" />
+    <Content Include="Areas\Admin\Content\images\bg_usertools_right.gif" />
+    <Content Include="Areas\Admin\Content\images\border.png" />
+    <Content Include="Areas\Admin\Content\images\bottom-logo.gif" />
+    <Content Include="Areas\Admin\Content\images\box-tail.jpg" />
+    <Content Include="Areas\Admin\Content\images\but_left_blue.gif" />
+    <Content Include="Areas\Admin\Content\images\but_left_grey.gif" />
+    <Content Include="Areas\Admin\Content\images\but_login_left.gif" />
+    <Content Include="Areas\Admin\Content\images\but_login_span.gif" />
+    <Content Include="Areas\Admin\Content\images\but_right_blue.gif" />
+    <Content Include="Areas\Admin\Content\images\but_right_grey.gif" />
+    <Content Include="Areas\Admin\Content\images\but_round_del_blue.gif" />
+    <Content Include="Areas\Admin\Content\images\but_round_left_grey.gif" />
+    <Content Include="Areas\Admin\Content\images\but_round_ok_blue.gif" />
+    <Content Include="Areas\Admin\Content\images\but_round_span_blue.gif" />
+    <Content Include="Areas\Admin\Content\images\but_round_span_grey.gif" />
+    <Content Include="Areas\Admin\Content\images\calendar.gif" />
+    <Content Include="Areas\Admin\Content\images\chart_bar.gif" />
+    <Content Include="Areas\Admin\Content\images\comments.gif" />
+    <Content Include="Areas\Admin\Content\images\controls.png" />
+    <Content Include="Areas\Admin\Content\images\feed.gif" />
+    <Content Include="Areas\Admin\Content\images\forgot_bg_left.gif" />
+    <Content Include="Areas\Admin\Content\images\forgot_bg_span.gif" />
+    <Content Include="Areas\Admin\Content\images\header-link.jpg" />
+    <Content Include="Areas\Admin\Content\images\header-title.gif" />
+    <Content Include="Areas\Admin\Content\images\icon-1.gif" />
+    <Content Include="Areas\Admin\Content\images\icon-2.gif" />
+    <Content Include="Areas\Admin\Content\images\icon-3.gif" />
+    <Content Include="Areas\Admin\Content\images\icons\action_check.gif" />
+    <Content Include="Areas\Admin\Content\images\icons\action_delete.gif" />
+    <Content Include="Areas\Admin\Content\images\icons\action_remove.gif" />
+    <Content Include="Areas\Admin\Content\images\icons\edit.gif" />
+    <Content Include="Areas\Admin\Content\images\icons\exclamation.gif" />
+    <Content Include="Areas\Admin\Content\images\icons\lightbulb.gif" />
+    <Content Include="Areas\Admin\Content\images\icon_clock.png" />
+    <Content Include="Areas\Admin\Content\images\icon_dashboard.png" />
+    <Content Include="Areas\Admin\Content\images\icon_dashboard_small.gif" />
+    <Content Include="Areas\Admin\Content\images\icon_edit.png" />
+    <Content Include="Areas\Admin\Content\images\icon_error.gif" />
+    <Content Include="Areas\Admin\Content\images\icon_info.gif" />
+    <Content Include="Areas\Admin\Content\images\icon_mail_small.gif" />
+    <Content Include="Areas\Admin\Content\images\icon_media.png" />
+    <Content Include="Areas\Admin\Content\images\icon_news.png" />
+    <Content Include="Areas\Admin\Content\images\icon_reports.jpg" />
+    <Content Include="Areas\Admin\Content\images\icon_reports.png" />
+    <Content Include="Areas\Admin\Content\images\icon_settings.png" />
+    <Content Include="Areas\Admin\Content\images\icon_success.gif" />
+    <Content Include="Areas\Admin\Content\images\icon_users.png" />
+    <Content Include="Areas\Admin\Content\images\icon_warning.gif" />
+    <Content Include="Areas\Admin\Content\images\img1.jpg" />
+    <Content Include="Areas\Admin\Content\images\img2.jpg" />
+    <Content Include="Areas\Admin\Content\images\img3.jpg" />
+    <Content Include="Areas\Admin\Content\images\img4.jpg" />
+    <Content Include="Areas\Admin\Content\images\img5.jpg" />
+    <Content Include="Areas\Admin\Content\images\informationbar_right.gif" />
+    <Content Include="Areas\Admin\Content\images\link.jpg" />
+    <Content Include="Areas\Admin\Content\images\list-bg.gif" />
+    <Content Include="Areas\Admin\Content\images\loading.gif" />
+    <Content Include="Areas\Admin\Content\images\loading_background.png" />
+    <Content Include="Areas\Admin\Content\images\logo-bottom.png" />
+    <Content Include="Areas\Admin\Content\images\logo.png" />
+    <Content Include="Areas\Admin\Content\images\main-bg.gif" />
+    <Content Include="Areas\Admin\Content\images\main-tail-bot.jpg" />
+    <Content Include="Areas\Admin\Content\images\main-tail-top.jpg" />
+    <Content Include="Areas\Admin\Content\images\menu.jpg" />
+    <Content Include="Areas\Admin\Content\images\navigation_background_blue.gif" />
+    <Content Include="Areas\Admin\Content\images\navigation_first_blue.gif" />
+    <Content Include="Areas\Admin\Content\images\navigation_last_blue.gif" />
+    <Content Include="Areas\Admin\Content\images\overlay.png" />
+    <Content Include="Areas\Admin\Content\images\pic-1.gif" />
+    <Content Include="Areas\Admin\Content\images\projects.png" />
+    <Content Include="Areas\Admin\Content\images\search-input.jpg" />
+    <Content Include="Areas\Admin\Content\images\search-submit.jpg" />
+    <Content Include="Areas\Admin\Content\images\subscribe-input.gif" />
+    <Content Include="Areas\Admin\Content\images\subscribe-submit.jpg" />
+    <Content Include="Areas\Admin\Content\images\tabs_left.gif" />
+    <Content Include="Areas\Admin\Content\images\tabs_right.gif" />
+    <Content Include="Areas\Admin\Content\images\ui-icons_222222_256x240.png" />
+    <Content Include="Areas\Admin\Content\images\uploadsthumb_2.jpg" />
+    <Content Include="Areas\Admin\Content\images\uploads\my_projects_folder.bmp" />
+    <Content Include="Areas\Admin\Content\images\user.gif" />
+    <Content Include="Areas\Admin\Content\js\checkbox.css" />
+    <Content Include="Areas\Admin\Content\js\Cooper_Lt_BT_400.js" />
+    <Content Include="Areas\Admin\Content\js\cufon-replace.js" />
+    <Content Include="Areas\Admin\Content\js\cufon-yui.js" />
+    <Content Include="Areas\Admin\Content\js\date.js" />
+    <Content Include="Areas\Admin\Content\js\datepicker.js" />
+    <Content Include="Areas\Admin\Content\js\effects.js" />
+    <Content Include="Areas\Admin\Content\js\glDatePicker.default.css" />
+    <Content Include="Areas\Admin\Content\js\glDatePicker.min.js" />
+    <Content Include="Areas\Admin\Content\js\graphs.js" />
+    <Content Include="Areas\Admin\Content\js\jcarousellite_1.0.1c4.js" />
+    <Content Include="Areas\Admin\Content\js\jquery-1.10.1.js" />
+    <Content Include="Areas\Admin\Content\js\jquery-1.10.1.min.js" />
+    <Content Include="Areas\Admin\Content\js\jquery-1.10.3.js" />
+    <Content Include="Areas\Admin\Content\js\jquery-1.4.1.js" />
+    <Content Include="Areas\Admin\Content\js\jquery-1.5.1.min.js" />
+    <Content Include="Areas\Admin\Content\js\jquery-1.5.2.js" />
+    <Content Include="Areas\Admin\Content\js\jquery-2.0.2.min.js" />
+    <Content Include="Areas\Admin\Content\js\jquery-ui.css" />
+    <Content Include="Areas\Admin\Content\js\jquery-ui.js" />
+    <Content Include="Areas\Admin\Content\js\jquery.colorbox-min.js" />
+    <Content Include="Areas\Admin\Content\js\jquery.js" />
+    <Content Include="Areas\Admin\Content\js\jquery.nivo.slider.pack.js" />
+    <Content Include="Areas\Admin\Content\js\jquery.slide-text-left.js" />
+    <Content Include="Areas\Admin\Content\js\jquery.validate.js" />
+    <Content Include="Areas\Admin\Content\js\jquerysctipttop.css" />
+    <Content Include="Areas\Admin\Content\js\pagination.js" />
+    <Content Include="Areas\Admin\Content\js\pngfix.js" />
+    <Content Include="Areas\Admin\Content\js\s3Slider.js" />
+    <Content Include="Areas\Admin\Content\js\script.js" />
+    <Content Include="Areas\Admin\Content\js\ui.js" />
+    <Content Include="Areas\Admin\Content\js\ui_002.js" />
+    <Content Include="Areas\Admin\Content\js\ui_003.js" />
+    <Content Include="Areas\Admin\Content\js\ui_004.js" />
+    <Content Include="Areas\Admin\Content\layout.css" />
+    <Content Include="Areas\Admin\Content\login.css" />
+    <Content Include="Areas\Admin\Content\pagination.css" />
+    <Content Include="Areas\Admin\Content\reset.css" />
+    <Content Include="Areas\Admin\Content\Site.css" />
+    <Content Include="Areas\Admin\Content\style.css" />
+    <Content Include="Areas\Admin\Content\text.css" />
+    <Content Include="Areas\Admin\Content\ui.css" />
+    <Content Include="Areas\Admin\Views\Events\AEForm.ascx" />
+    <Content Include="Areas\Admin\Views\Events\Create.aspx" />
+    <Content Include="Areas\Admin\Views\Events\Delete.aspx" />
+    <Content Include="Areas\Admin\Views\Events\Details.aspx" />
+    <Content Include="Areas\Admin\Views\Events\Edit.aspx" />
+    <Content Include="Areas\Admin\Views\Events\Index.aspx" />
+    <Content Include="Areas\Admin\Views\Index\Index.aspx" />
+    <Content Include="Areas\Admin\Views\Logon\AdminLogon.aspx" />
+    <Content Include="Areas\Admin\Views\Logon\LogOnForm.ascx" />
+    <Content Include="Areas\Admin\Views\Logon\LogOnForm1.aspx" />
+    <Content Include="Areas\Admin\Views\member\AEForm.ascx" />
+    <Content Include="Areas\Admin\Views\member\Create.aspx" />
+    <Content Include="Areas\Admin\Views\member\Delete.aspx" />
+    <Content Include="Areas\Admin\Views\member\Details.aspx" />
+    <Content Include="Areas\Admin\Views\member\Edit.aspx" />
+    <Content Include="Areas\Admin\Views\member\Index.aspx" />
+    <Content Include="Areas\Admin\Views\Milestones\AEForm.ascx" />
+    <Content Include="Areas\Admin\Views\Milestones\Create.aspx" />
+    <Content Include="Areas\Admin\Views\Milestones\Delete.aspx" />
+    <Content Include="Areas\Admin\Views\Milestones\Details.aspx" />
+    <Content Include="Areas\Admin\Views\Milestones\Edit.aspx" />
+    <Content Include="Areas\Admin\Views\Milestones\Index.aspx" />
+    <Content Include="Areas\Admin\Views\Project\CommentForm.ascx" />
+    <Content Include="Areas\Admin\Views\Project\CommentList.aspx" />
+    <Content Include="Areas\Admin\Views\Project\Create.aspx" />
+    <Content Include="Areas\Admin\Views\Project\CreateComments.aspx" />
+    <Content Include="Areas\Admin\Views\Project\CreateDiscussion.aspx" />
+    <Content Include="Areas\Admin\Views\Project\DelComments.aspx" />
+    <Content Include="Areas\Admin\Views\Project\DelDiscussion.aspx" />
+    <Content Include="Areas\Admin\Views\Project\Delete.aspx" />
+    <Content Include="Areas\Admin\Views\Project\Details.aspx" />
+    <Content Include="Areas\Admin\Views\Project\DiscussionForm.ascx" />
+    <Content Include="Areas\Admin\Views\Project\Edit.aspx" />
+    <Content Include="Areas\Admin\Views\Project\Index.aspx" />
+    <Content Include="Areas\Admin\Views\Project\AEForm.ascx" />
+    <Content Include="Areas\Admin\Views\Project\Listed.aspx" />
+    <Content Include="Controllers\Listed.aspx" />
+    <Content Include="Areas\Admin\Views\Report\Index.aspx" />
+    <Content Include="Areas\Admin\Views\Report\Test.aspx" />
+    <Content Include="Areas\Admin\Views\Shared\Menu.ascx" />
+    <Content Include="Areas\Admin\Views\Shared\SubMenu.ascx" />
+    <Content Include="Areas\Admin\Views\Shared\ViewPage1.aspx" />
+    <Content Include="Areas\Admin\Views\Signup\MemberSignUp.aspx" />
+    <Content Include="Areas\Admin\Views\Signup\SignUpForm.ascx" />
+    <Content Include="Areas\Admin\Views\ToDo\AEForm.ascx" />
+    <Content Include="Areas\Admin\Views\ToDo\Create.aspx" />
+    <Content Include="Areas\Admin\Views\ToDo\Delete.aspx" />
+    <Content Include="Areas\Admin\Views\ToDo\Details.aspx" />
+    <Content Include="Areas\Admin\Views\ToDo\Edit.aspx" />
+    <Content Include="Areas\Admin\Views\ToDo\Index.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Scripts\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Views\Account\ChangePassword.aspx" />
+    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Views\Account\LogOn.aspx" />
+    <Content Include="Views\Account\Register.aspx" />
+    <Content Include="Views\Home\About.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
+    <Content Include="Views\Shared\LogOnUserControl.ascx" />
+    <Content Include="Views\Shared\Site.Master" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Content\images\slider\" />
+    <Folder Include="Areas\Admin\Models\Account\" />
+    <Folder Include="Areas\Admin\Uploads\" />
+    <Folder Include="Report\" />
+    <Folder Include="Uploads\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Admin\Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Admin\Views\Shared\Admin.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\Admin\Views\Shared\Login.Master" />
+    <None Include="Areas\Admin\Views\Report\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Areas\Admin\Views\Report\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Areas\Admin\Views\Report\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CrystalReport1.mht" />
+    <None Include="ProjectLabDataSet.xsc">
+      <DependentUpon>ProjectLabDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectLabDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectLabDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectLabDataSet.xss">
+      <DependentUpon>ProjectLabDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SimpleCrystal.rpt" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Areas\Admin\Views\Report\Report1.rdlc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>2432</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
