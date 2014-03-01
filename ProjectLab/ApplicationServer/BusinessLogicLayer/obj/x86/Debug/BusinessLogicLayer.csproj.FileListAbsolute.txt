@@ -1,0 +1,14 @@
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.exe
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\BusinessLogicLayer\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\BusinessLogicLayer\obj\x86\Debug\BusinessLogicLayer.exe
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\BusinessLogicLayer\obj\x86\Debug\BusinessLogicLayer.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.exe
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\BusinessLogicLayer\obj\x86\Debug\BusinessLogicLayer.exe
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\BusinessLogicLayer\obj\x86\Debug\BusinessLogicLayer.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.exe
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\BusinessLogicLayer\obj\x86\Debug\BusinessLogicLayer.csprojResolveAssemblyReference.cache
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\BusinessLogicLayer\obj\x86\Debug\BusinessLogicLayer.exe
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\BusinessLogicLayer\obj\x86\Debug\BusinessLogicLayer.pdb

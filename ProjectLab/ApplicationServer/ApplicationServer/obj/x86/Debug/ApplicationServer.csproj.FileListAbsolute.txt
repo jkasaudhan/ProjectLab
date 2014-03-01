@@ -1,0 +1,32 @@
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationServer\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationServer\bin\Debug\ApplicationServer.exe
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationServer\bin\Debug\ApplicationServer.pdb
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationServer\obj\x86\Debug\ApplicationServer.exe
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationServer\obj\x86\Debug\ApplicationServer.pdb
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationServer\bin\Debug\ApplicationLayer.exe
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationServer\bin\Debug\ApplicationLayer.pdb
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationServer\bin\Debug\Common.exe
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationServer\bin\Debug\Newtonsoft.Json.dll
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationServer\bin\Debug\Common.pdb
+E:\ProjectLab\ApplicationServer\ApplicationServer\obj\x86\Debug\ApplicationServer.exe
+E:\ProjectLab\ApplicationServer\ApplicationServer\obj\x86\Debug\ApplicationServer.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationServer\obj\x86\Debug\ApplicationServer.exe
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationServer\obj\x86\Debug\ApplicationServer.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\ApplicationServer.exe
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\ApplicationServer.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\ApplicationLayer.exe
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\Common.exe
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\ApplicationLayer.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\Common.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationServer\obj\x86\Debug\ApplicationServer.csprojResolveAssemblyReference.cache
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationServer\obj\x86\Debug\ApplicationServer.exe
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationServer\obj\x86\Debug\ApplicationServer.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\ApplicationServer.exe
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\ApplicationServer.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\ApplicationLayer.exe
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\Newtonsoft.Json.dll
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\Common.exe
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\ApplicationLayer.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationServer\bin\Debug\Common.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationServer\obj\x86\Debug\ApplicationServer.csprojResolveAssemblyReference.cache

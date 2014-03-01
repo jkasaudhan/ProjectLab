@@ -1,0 +1,27 @@
+﻿
+body {  background-color: #FFFFFF; font-family: Tahoma; font-size: 11px; }
+
+/* Control Skin */
+input { font: normal 11px Tahoma; }
+div.ctrl { background-color: window; border: solid 1px ThreeDLightShadow; vertical-align: top; margin: 0; padding: 0;  width: 268px; }
+input.Button { background: #2F89BD url('images/btn_default%20gradient.gif') repeat-x; cursor: pointer;
+                height: 24px; color: #FFF; border: solid 1px #2F82BE; padding: 0 10px; width: auto;
+                overflow: visible; }
+input.TextBox { border: solid 1px ThreeDLightShadow; height: 16px; padding-top: 2px; text-indent: 2px; width: 150px; }
+
+/* For MultiSelectControl */
+.ms_multiSelector { position: absolute; display:inline ; border: 1px solid ThreeDLightShadow; width: 268px; z-index: 100; }
+.MultiSelectControl_txtInput { width: 240px; border: none 0; margin: 5px 0 0 5px; padding: 0; vertical-align: top; }
+.ms_selectListWrapper { padding: 0; margin: 0; }
+.ms_selectList { background-color: #FFFFFF; overflow: auto; height: 265px; _height: 150px; /* For IE 6 */ }
+.ms_chkSelectAll { padding-left: 3px; }
+.selectList_Wrapper { padding: 0; margin: 0; }
+.multiSelectorCountry { position: relative; clear: both; display: none; border: 1px solid ThreeDLightShadow; width: 275px; }
+.multiSelector { position: absolute; visibility: hidden; border: 1px solid ThreeDLightShadow; width: 275px; }
+.mutliselect_container { padding: 0; margin: 0; border: 0; display: inline; }
+.chkSelectAll { padding-left: 3px; }
+.selectList { background-color: #FFFFFF; overflow: auto; height: 200px; _height: 150px; /* For IE 6 */ }
+.chklstSelect INPUT { float: left; width: 20px; /* To align the chkbox text in FF */ }
+.chklstSelect LABEL { text-align: left; float: right; width: 230px; /* To align the chkbox text in FF */ }
+#imgMultiSelectArrow { width: 20px; height: 20px; margin-left: 300px; padding-left: 300px; }
+.multiselect_close { padding: 4px 0; float: right; width: 65px; background: transparent  no-repeat 33px center; }

@@ -1,0 +1,24 @@
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.Tests.dll.config
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.Tests.dll
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.Tests.pdb
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.dll
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.pdb
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient.Tests\obj\Debug\ResolveAssemblyReference.cache
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient.Tests\obj\Debug\ApplicationClient.Tests.dll
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient.Tests\obj\Debug\ApplicationClient.Tests.pdb
+E:\ProjectLab\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.Tests.dll.config
+E:\ProjectLab\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.Tests.dll
+E:\ProjectLab\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.Tests.pdb
+E:\ProjectLab\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.dll
+E:\ProjectLab\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.pdb
+E:\ProjectLab\ApplicationServer\ApplicationClient.Tests\obj\Debug\ResolveAssemblyReference.cache
+E:\ProjectLab\ApplicationServer\ApplicationClient.Tests\obj\Debug\ApplicationClient.Tests.dll
+E:\ProjectLab\ApplicationServer\ApplicationClient.Tests\obj\Debug\ApplicationClient.Tests.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.Tests.dll.config
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.Tests.dll
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.Tests.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.dll
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient.Tests\bin\Debug\ApplicationClient.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient.Tests\obj\Debug\ApplicationClient.Tests.csprojResolveAssemblyReference.cache
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient.Tests\obj\Debug\ApplicationClient.Tests.dll
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient.Tests\obj\Debug\ApplicationClient.Tests.pdb

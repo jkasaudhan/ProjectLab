@@ -1,0 +1,241 @@
+.sign_up
+{
+    width: 620px;
+    float: left;
+    padding: 5px 5px 5px 5px;
+    border:1px solid #000000;
+    font:12px Tahoma,sans-serif;
+    line-height: 18px;
+}
+.s_table
+{
+    width: 100%;
+    float: left;
+} 
+.s_table td
+{
+    padding:5px 0px;
+}
+.txt
+{
+    width: 100px;
+    margin-right: 10px;
+}
+.sign_up h1
+{
+    font-size: 16px;
+    float: left;
+    width: 100%;
+}
+.sign_up h2
+{
+    font-size: 14px;
+    float: left;
+    width: 100%;
+}
+.button {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('images/but_right_blue.gif') no-repeat scroll top right;
+  color: #1b486a;
+  display: block;
+  float: left;
+  height: 29px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 12px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button span {
+  background: url('images/but_left_blue.gif') no-repeat left top;
+  display: block;
+  line-height: 29px;
+  padding: 0px 0px 0px 12px;
+  outline: none !important;
+  float:left;
+}
+.button:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.button:hover span {
+  background-position: left bottom;
+  color: #1b486a;
+}
+.button_grey {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('images/but_right_grey.gif') no-repeat scroll top right;
+  color: #555;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 12px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;	
+}
+.button_grey span {
+  background: url('images/but_left_grey.gif') no-repeat left top;
+  display: block;
+  line-height: 30px;
+  padding: 0px 0px 0px 12px;
+  outline: none !important;
+  float:left;
+}
+.button_grey:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.button_grey:hover span {
+  background-position: left bottom;
+  color: #333;
+}
+.button_ok {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('images/but_round_span_blue.gif') no-repeat scroll top right;
+  color: #1b486a;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 15px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button_ok span {
+  background: url('images/but_round_ok_blue.gif') no-repeat left top;
+  display: block;
+  line-height: 30px;
+  padding: 0px 0px 0px 35px;
+  outline: none !important;
+  float:left;
+}
+.button_ok:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.button_ok:hover span {
+  background-position: left bottom;
+  color: #1b486a;
+}
+.button_notok {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('images/but_round_span_blue.gif') no-repeat scroll top right;
+  color: #1b486a;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 15px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button_notok span {
+  background: url('images/but_round_del_blue.gif') no-repeat left top;
+  display: block;
+  line-height: 30px;
+  padding: 0px 0px 0px 35px;
+  outline: none !important;
+  float:left;
+  font-style: italic;
+}
+.button_notok:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.button_notok:hover span {
+  background-position: left bottom;
+  color: #1b486a;
+}
+.button_grey_round {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('images/but_round_span_grey.gif') no-repeat scroll top right;
+  color: #555;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 12px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;	
+}
+.button_grey_round span {
+  background: url('images/but_round_left_grey.gif') no-repeat left top;
+  display: block;
+  line-height: 30px;
+  padding: 0px 0px 0px 12px;
+  outline: none !important;
+  float:left;
+}
+.button_grey_round:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.button_grey_round:hover span {
+  background-position: left bottom;
+  color: #333;
+}
+.dataInput
+{
+    float: left;
+    border:1px solid #999; 
+    background:#FFFFE6; 
+    font-size:12px !important;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif !important; 
+    color: #333 !important; font-style:italic;
+}
+.single
+{
+    width: 150px;
+    float: left;
+    padding-bottom: 10px;
+    margin-right: 5px;
+  }
+  .error
+  {
+      float: left;
+      xwidth: 100%;
+      padding-left: 10px;
+      color: Red;
+  }
+  #email_form
+  {
+      width: 500px;
+      float: left;
+  }
+  /*Email Form style*/
+  

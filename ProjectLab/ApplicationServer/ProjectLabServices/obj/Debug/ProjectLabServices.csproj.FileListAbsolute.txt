@@ -1,0 +1,36 @@
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ProjectLabServices\bin\ProjectLabServices.dll
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ProjectLabServices\bin\ProjectLabServices.pdb
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ProjectLabServices\obj\Debug\ResolveAssemblyReference.cache
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ProjectLabServices\obj\Debug\ProjectLabServices.dll
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ProjectLabServices\obj\Debug\ProjectLabServices.pdb
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ProjectLabServices\bin\ApplicationLayer.exe
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ProjectLabServices\bin\Common.exe
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ProjectLabServices\bin\ApplicationLayer.pdb
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ProjectLabServices\bin\Common.pdb
+E:\ProjectLab\ApplicationServer\ProjectLabServices\bin\ProjectLabServices.dll
+E:\ProjectLab\ApplicationServer\ProjectLabServices\bin\ProjectLabServices.pdb
+E:\ProjectLab\ApplicationServer\ProjectLabServices\bin\ApplicationLayer.exe
+E:\ProjectLab\ApplicationServer\ProjectLabServices\bin\Common.exe
+E:\ProjectLab\ApplicationServer\ProjectLabServices\bin\ApplicationLayer.pdb
+E:\ProjectLab\ApplicationServer\ProjectLabServices\bin\Common.pdb
+E:\ProjectLab\ApplicationServer\ProjectLabServices\obj\Debug\ResolveAssemblyReference.cache
+E:\ProjectLab\ApplicationServer\ProjectLabServices\obj\Debug\ProjectLabServices.dll
+E:\ProjectLab\ApplicationServer\ProjectLabServices\obj\Debug\ProjectLabServices.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ProjectLabServices\bin\ProjectLabServices.dll
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ProjectLabServices\bin\ProjectLabServices.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ProjectLabServices\bin\ApplicationLayer.exe
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ProjectLabServices\bin\Common.exe
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ProjectLabServices\bin\ApplicationLayer.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ProjectLabServices\bin\Common.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ProjectLabServices\obj\Debug\ProjectLabServices.csprojResolveAssemblyReference.cache
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ProjectLabServices\obj\Debug\ProjectLabServices.dll
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ProjectLabServices\obj\Debug\ProjectLabServices.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ProjectLabServices\bin\ProjectLabServices.dll
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ProjectLabServices\bin\ProjectLabServices.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ProjectLabServices\bin\ApplicationLayer.exe
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ProjectLabServices\bin\Common.exe
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ProjectLabServices\bin\ApplicationLayer.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ProjectLabServices\bin\Common.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ProjectLabServices\obj\Debug\ProjectLabServices.csprojResolveAssemblyReference.cache
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ProjectLabServices\obj\Debug\ProjectLabServices.dll
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ProjectLabServices\obj\Debug\ProjectLabServices.pdb

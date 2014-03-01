@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+     <link href="../../Content/MasterLayout.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="page_wrapper">
+    <div id="main_wrapper">
+
+        <div id="head_wrapper">
+         header zone</br>
+         header zone</br>
+         header zone</br>
+         header zone</br>
+         header zone</br>
+         header zone</br>
+         header zone</br>
+         header zone</br>
+        </div>
+        <div class="clear-block"></div>
+        <div id="content_wrapper">
+           <div id="main_container">
+            <div id="main_menu_wrapper">                   
+              <asp:ContentPlaceHolder ID="MainMenus" runat="server" >
+                        <input type="button" class="new-aqua" value="Projects"/>
+                        <input type="button" class="new-aqua" value="Calender"/>
+                        <input type="button" class="new-aqua" value="Everyone's Activity"/>
+                        <input type="button" class="new-aqua" value="Me"/>
+              </asp:ContentPlaceHolder>
+            </div>
+           <div class="clear-block"></div>
+            <div id="main_content_wrapper">
+                <div id="sub_menu">
+                     <asp:ContentPlaceHolder ID="SubMenus" runat="server" >
+                        <input type="button" class="new-aqua-submenu" value="New Project"/>
+                        <input type="button" class="new-aqua-submenu" value="Overviews"/>
+                        <input type="button" class="new-aqua-submenu" value="Updates"/>
+                        <input type="button" class="new-aqua-submenu" value="To Do's"/>
+                        <input type="button" class="new-aqua-submenu" value="Events"/>
+                        <input type="button" class="new-aqua-submenu" value="Milestone"/>
+                        <input type="button" class="new-aqua-submenu" value="Notes"/>
+                        <input type="button" class="new-aqua-submenu" value="Files"/>
+                     </asp:ContentPlaceHolder>        
+                    
+                </div>
+                <div id="main_content">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server" >
+                        <p>area to display main content</p>
+                    </asp:ContentPlaceHolder>
+                </div>
+              
+                
+            </div>
+            </div>
+
+            <div id="sidebar">
+                <div id="activity_wrapper"><input type="button" class="new-aqua-side" value="Recent Activity"/></div>
+                <div id="tweet_wrapper"><input type="button" class="new-aqua-side" value="Notice Board"/></div>
+                <div id="chat_wrapper"> <input type="button" class="new-aqua-side" value="Chat"/></div>
+            </div>
+        </div>
+        <div class="clear-block"></div>
+        <div id="foot_wrapper"> footer zone</div>
+
+    </div>
+
+</body>
+</html>

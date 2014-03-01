@@ -1,0 +1,1 @@
+Cufon.replace('h2, h3, #menu li, #header-box a, .link, .list-5 li b a, #contact-form a', { fontFamily: 'Cooper Lt BT', hover: 'true' });

@@ -1,0 +1,20 @@
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient\bin\ApplicationClient.dll
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient\bin\ApplicationClient.pdb
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient\obj\Debug\ResolveAssemblyReference.cache
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient\obj\Debug\ApplicationClient.dll
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\ApplicationClient\obj\Debug\ApplicationClient.pdb
+E:\ProjectLab\ApplicationServer\ApplicationClient\bin\ApplicationClient.dll
+E:\ProjectLab\ApplicationServer\ApplicationClient\bin\ApplicationClient.pdb
+E:\ProjectLab\ApplicationServer\ApplicationClient\obj\Debug\ResolveAssemblyReference.cache
+E:\ProjectLab\ApplicationServer\ApplicationClient\obj\Debug\ApplicationClient.dll
+E:\ProjectLab\ApplicationServer\ApplicationClient\obj\Debug\ApplicationClient.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationClient\bin\ApplicationClient.dll
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationClient\bin\ApplicationClient.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationClient\obj\Debug\ApplicationClient.csprojResolveAssemblyReference.cache
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationClient\obj\Debug\ApplicationClient.dll
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\ApplicationClient\obj\Debug\ApplicationClient.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient\bin\ApplicationClient.dll
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient\bin\ApplicationClient.pdb
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient\obj\Debug\ApplicationClient.csprojResolveAssemblyReference.cache
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient\obj\Debug\ApplicationClient.dll
+C:\Users\roshan\Desktop\my project stuffs\ProjectLab\ApplicationServer\ApplicationClient\obj\Debug\ApplicationClient.pdb

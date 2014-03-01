@@ -1,0 +1,8 @@
+D:\jkbackup\ProjectLab\ProjectLab\ProjectLab.Tests\bin\Debug\ProjectLab.Tests.dll.config
+D:\jkbackup\ProjectLab\ProjectLab\ProjectLab.Tests\bin\Debug\ProjectLab.Tests.dll
+D:\jkbackup\ProjectLab\ProjectLab\ProjectLab.Tests\bin\Debug\ProjectLab.Tests.pdb
+D:\jkbackup\ProjectLab\ProjectLab\ProjectLab.Tests\bin\Debug\ProjectLab.dll
+D:\jkbackup\ProjectLab\ProjectLab\ProjectLab.Tests\bin\Debug\ProjectLab.pdb
+D:\jkbackup\ProjectLab\ProjectLab\ProjectLab.Tests\obj\Debug\ResolveAssemblyReference.cache
+D:\jkbackup\ProjectLab\ProjectLab\ProjectLab.Tests\obj\Debug\ProjectLab.Tests.dll
+D:\jkbackup\ProjectLab\ProjectLab\ProjectLab.Tests\obj\Debug\ProjectLab.Tests.pdb

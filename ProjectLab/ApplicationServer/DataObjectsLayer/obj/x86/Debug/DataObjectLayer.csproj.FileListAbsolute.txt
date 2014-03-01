@@ -1,0 +1,9 @@
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\DataObjectsLayer\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\DataObjectsLayer\bin\Debug\DataObjectsLayer.exe
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\DataObjectsLayer\bin\Debug\DataObjectsLayer.pdb
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\DataObjectsLayer\obj\x86\Debug\DataObjectsLayer.exe
+c:\users\jitendra\documents\visual studio 2010\Projects\ApplicationServer\DataObjectsLayer\obj\x86\Debug\DataObjectsLayer.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\DataObjectsLayer\bin\Debug\DataObjectsLayer.exe
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\DataObjectsLayer\bin\Debug\DataObjectsLayer.pdb
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\DataObjectsLayer\obj\x86\Debug\DataObjectsLayer.exe
+C:\Users\roshan\Desktop\ProjectLab\ApplicationServer\DataObjectsLayer\obj\x86\Debug\DataObjectsLayer.pdb

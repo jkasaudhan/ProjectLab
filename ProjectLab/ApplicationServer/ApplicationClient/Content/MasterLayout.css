@@ -1,0 +1,188 @@
+﻿body 
+{
+    background-image:url(images/bckgd1.jpg);
+}
+#page_wrapper 
+{
+    border-style :solid;
+    border-width:thin;
+   
+    margin:auto;
+    }
+    
+#main_wrapper
+{
+    border-style :solid;
+    border-width:thin;
+    width:1000px;
+    height:288px;
+    display:block;
+    margin:auto;
+    padding:2px;
+    
+    }
+    
+#head_wrapper
+{
+    border-style :solid;
+    border-width:thin;
+    background-image:url(images/wheel.jpg);
+    padding:0px;
+    
+
+    }
+    
+#content_wrapper
+{
+    border-style :solid;
+    border-width:thin;
+    padding:1px;
+   
+   
+    }
+#main_container
+{
+      
+       border-style :solid;
+       border-width:thin;
+       float:left;
+       }
+#foot_wrapper
+{
+    border-style :solid;
+    border-width:thin;
+    padding:1px;
+   
+    }
+    
+#main_menu_wrapper
+{
+    border-style :solid;
+    border-width:thin;
+   
+    }
+    
+#main_content_wrapper
+{
+    border-style :solid;
+    border-width:thin;
+    float:left;
+    width:740px;
+    }
+    
+#sidebar
+{
+    border-style :solid;
+    border-width:thin;
+    width:250px;
+    float:right;
+   
+    }
+    
+#main_content
+{
+    border-style :solid;
+    border-width:thin;
+    
+    }
+
+#sub_menu
+{
+    border-style :solid;
+    border-width:thin;
+    }
+#activity_wrapper
+{
+    border-style :solid;
+    border-width:thin;
+    width:248px;
+    height:200px;
+    }
+  
+#tweet_wrapper
+{
+    border-style :solid;
+    border-width:thin;
+    height:200px;
+    }
+    
+#chat_wrapper
+{
+    border-style :solid;
+    border-width:thin;
+    height:200px;
+    }
+    
+.clear-block
+{
+    clear:left;
+    }
+    
+    
+input[type=button].new-aqua {
+  width:165px;
+  height: 35px;		
+  background: #cde; 
+  border: 2px solid #ccc; 
+  border-color: #8ba2c1 #5890bf #4f93ca #768fa5; 
+  font: 600 16px/1 Lucida Sans, Verdana, sans-serif; 
+  color: #fff; 
+  text-shadow: rgba(10, 10, 10, 0.5) 1px 2px 2px;
+  text-align: center; 
+  vertical-align: middle; 
+  white-space: nowrap; 
+  text-overflow: ellipsis; 
+  overflow: hidden;
+  border-radius: 5px; -moz-border-radius: 16px; -webkit-border-radius: 5px;
+  box-shadow: 0 10px 16px rgba(66, 140, 240, 0.5), inset 0 -8px 12px 0 #6bf, inset 0 -8px 0 8px #48c, inset 0 -35px 15px -10px #7ad;
+  -moz-box-shadow: 0 10px 16px rgba(66, 140, 240, 0.5), inset 0 -8px 12px 0 #6bf, inset 0 -8px 0 8px #48c, inset 0 -35px 15px -10px #7ad;
+  -webkit-box-shadow: 0 10px 16px rgba(66, 140, 240, 0.5), inset 0 -8px 12px 0 #6bf, inset 0 -8px 0 8px #48c, inset 0 -35px 15px -10px #7ad;
+}
+.new-aqua:hover {
+  text-shadow: rgb(255, 255, 255) 0px 0px 5px;
+}
+
+.new-aqua-side {
+  width:248px ;
+  height: 35px;		
+  background: #cde; 
+  border: 2px solid #ccc; 
+  border-color: #8ba2c1 #5890bf #4f93ca #768fa5; 
+  font: 600 16px/1 Lucida Sans, Verdana, sans-serif; 
+  color: #fff; 
+ 
+  text-shadow: rgba(10, 10, 10, 0.5) 1px 2px 2px;
+  text-align: center; 
+  vertical-align: middle; 
+  white-space: nowrap; 
+  text-overflow: ellipsis; 
+  overflow: hidden;
+  border-radius: 5px 0px 5px 0px; -moz-border-radius: 5px 0px 5px 0px; -webkit-border-radius: 5px 0px 5px 0px;
+  box-shadow: 0 10px 16px rgba(66, 140, 240, 0.5), inset 0 -8px 12px 0 #6bf, inset 0 -8px 0 8px #48c, inset 0 -35px 15px -10px #7ad;
+  -moz-box-shadow: 0 10px 16px rgba(66, 140, 240, 0.5), inset 0 -8px 12px 0 #6bf, inset 0 -8px 0 8px #48c, inset 0 -35px 15px -10px #7ad;
+  -webkit-box-shadow: 0 10px 16px rgba(66, 140, 240, 0.5), inset 0 -8px 12px 0 #6bf, inset 0 -8px 0 8px #48c, inset 0 -35px 15px -10px #7ad;
+}
+.new-aqua-side:hover {
+  text-shadow: rgb(255, 255, 255) 0px 0px 5px;
+}
+
+.new-aqua-submenu {
+ 
+  height: 30px;		
+  background: #cde; 
+  border: 2px solid #ccc; 
+  border-color: #8ba2c1 #5890bf #4f93ca #768fa5; 
+  font: 600 16px/1 Lucida Sans, Verdana, sans-serif; 
+  color: #fff; 
+ 
+  text-shadow: rgba(10, 10, 10, 0.5) 1px 2px 2px;
+  text-align: center; 
+  vertical-align: middle; 
+  white-space: nowrap; 
+  text-overflow: ellipsis; 
+  overflow: hidden;
+  border-radius: 5px 0px 5px 0px; -moz-border-radius: 5px 0px 5px 0px; -webkit-border-radius: 5px 0px 5px 0px;
+  box-shadow: 0 10px 16px rgba(66, 140, 240, 0.5), inset 0 -8px 12px 0 #6bf, inset 0 -8px 0 8px #48c, inset 0 -35px 15px -10px #7ad;
+  -moz-box-shadow: 0 10px 16px rgba(66, 140, 240, 0.5), inset 0 -8px 12px 0 #6bf, inset 0 -8px 0 8px #48c, inset 0 -35px 15px -10px #7ad;
+  -webkit-box-shadow: 0 10px 16px rgba(66, 140, 240, 0.5), inset 0 -8px 12px 0 #6bf, inset 0 -8px 0 8px #48c, inset 0 -35px 15px -10px #7ad;
+}
